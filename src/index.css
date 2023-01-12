@@ -131,6 +131,10 @@ p {
   padding-left: 40%;
 }
 
+.pad2 {
+  padding-bottom: 50px;
+}
+
 @font-face {
   font-family: "Lighters";
   src: url(Lightersdemo-z8p30.otf);
@@ -255,10 +259,12 @@ p {
   .container2 {
     margin-left: auto;
     margin-right: auto;
-    width: fit-content;
+    max-width: 1440px;
+    max-height: 500px;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .center2 {

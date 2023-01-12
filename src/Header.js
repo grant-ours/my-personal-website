@@ -17,7 +17,7 @@ function Header() {
       />
       </div>
       <h1 className="center">GRANT OURS</h1>
-      <h3 className="container2">FULL STACK WEB DEVELOPER</h3>
+      <h3 className="center">FULL STACK WEB DEVELOPER</h3>
       <br></br>
 
       
