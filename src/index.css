@@ -1,13 +1,294 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h1 {
+  font-family: "Lighters";
+}
+
+h2 {
+  font-family: "Lighters";
+}
+
+h3 {
+  font-family: "Lighters";
+}
+p {
+  font-family: "Lighters";
+}
+
+.font {
+  font-family: "Lighters";
+}
+
+.pad {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.under {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  text-decoration: underline;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 12px;
+  background-color: white;
+  border: 2px solid #e7e7e7;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  padding: 30px 75px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 4px 2px;
+  font-family: "Lighters";
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "→";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button:hover {
+  background-color: #e7e7e7;
+  color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.text-align {
+  text-align: center;
+}
+
+#crnrbtn {
+  padding-top: 2px;
+  padding-left: 2px;
+}
+
+.container2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  text-align: center;
+}
+
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  padding-top: 20px;
+}
+
+.link-group {
+  padding: 50px;
+}
+
+.btn {
+  padding-left: 40%;
+}
+
+@font-face {
+  font-family: "Lighters";
+  src: url(Lightersdemo-z8p30.otf);
+}
+
+@font-face {
+  font-family: "Hurtmold";
+  src: url(Hurtmold-G5mA.otf);
+}
+
+@media only screen and (min-width: 1000px) {
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+
+  .text-align {
+    text-align: center;
+  }
+
+  h1 {
+    font-family: "Lighters";
+  }
+
+  h2 {
+    font-family: "Lighters";
+  }
+
+  h3 {
+    font-family: "Lighters";
+  }
+  p {
+    font-family: "Lighters";
+  }
+
+  .font {
+    font-family: "Lighters";
+  }
+
+  .pad {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .pad2 {
+    padding-bottom: 50px;
+  }
+
+  .under {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    text-decoration: underline;
+    align-self: flex-start;
+  }
+
+  .button {
+    display: inline-block;
+    border-radius: 12px;
+    background-color: white;
+    border: 2px solid #e7e7e7;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    padding: 30px 75px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 4px 2px;
+    font-family: "Lighters";
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: "→";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 25px;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .button:hover {
+    background-color: #e7e7e7;
+    color: black;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  #crnrbtn {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  .container2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    padding-top: 20px;
+  }
+
+  .link-group {
+    padding: 50px;
+  }
+
+  .btn {
+    padding-left: 40%;
+  }
+
+  @font-face {
+    font-family: "Lighters";
+    src: url(Lightersdemo-z8p30.otf);
+  }
+
+  @font-face {
+    font-family: "Hurtmold";
+    src: url(Hurtmold-G5mA.otf);
+  }
 }
