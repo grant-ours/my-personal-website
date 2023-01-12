@@ -14,6 +14,7 @@ function Header() {
         src="https://i.ibb.co/48wSLmz/Minimalist-Photography-Initials-Letters-Logo.png"
         height="300"
         className="center2"
+        alt="GO Software Development Logo"
       />
       </div>
       <h1 className="center">GRANT OURS</h1>
