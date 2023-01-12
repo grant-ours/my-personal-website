@@ -23,13 +23,13 @@ function ProjectPage() {
         <Card.Group itemsPerRow={3} stackable>
           <Card>
             <Card.Content onClick={DiscodeClick}>
-              <Card.Header>
-                <h3>DISCODE</h3>
-              </Card.Header>
               <Image
                 floated="right"
                 src="https://i.postimg.cc/BbvX9vmv/Screen-Shot-2023-01-09-at-12-46-38-PM.png"
               />
+              <Card.Header>
+                <h3>DISCODE</h3>
+              </Card.Header>
               <Card.Meta>Creators: Grant Ours</Card.Meta>
               <Card.Description>
                 My attempt at a Discord like chatroom app
@@ -50,13 +50,13 @@ function ProjectPage() {
 
           <Card>
             <Card.Content onClick={PriddleClick}>
-              <Card.Header>
-                <h3>PRIDDLE</h3>
-              </Card.Header>
               <Image
                 floated="right"
                 src="https://github.com/ZoeJ0504/Priddle/raw/main/client/src/image/Priddle.png"
               />
+              <Card.Header>
+                <h3>PRIDDLE</h3>
+              </Card.Header>
               <Card.Meta>Creators: Grant Ours and Zoe Mendez</Card.Meta>
               <Card.Description>
                 A social website that allows users to post puzzles, riddles, and
@@ -77,13 +77,13 @@ function ProjectPage() {
           </Card>
           <Card>
             <Card.Content onClick={CarLotClick}>
-              <Card.Header>
-                <h3>CAR LOT</h3>
-              </Card.Header>
               <Image
                 floated="right"
                 src="https://i.ibb.co/j82Hfs7/Screen-Shot-2023-01-06-at-11-30-49-PM.png"
               />
+              <Card.Header>
+                <h3>CAR LOT</h3>
+              </Card.Header>
               <Card.Meta>Creators: Grant Ours and Anna Ayvazyan</Card.Meta>
               <Card.Description>Mock car dealership website</Card.Description>
             </Card.Content>
