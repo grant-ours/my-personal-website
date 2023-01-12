@@ -24,6 +24,7 @@ function ProjectPage() {
           <Card>
             <Card.Content onClick={DiscodeClick}>
               <Image
+                rounded
                 floated="right"
                 src="https://i.postimg.cc/BbvX9vmv/Screen-Shot-2023-01-09-at-12-46-38-PM.png"
               />
@@ -51,6 +52,7 @@ function ProjectPage() {
           <Card>
             <Card.Content onClick={PriddleClick}>
               <Image
+                rounded
                 floated="right"
                 src="https://github.com/ZoeJ0504/Priddle/raw/main/client/src/image/Priddle.png"
               />
@@ -78,6 +80,7 @@ function ProjectPage() {
           <Card>
             <Card.Content onClick={CarLotClick}>
               <Image
+                rounded
                 floated="right"
                 src="https://i.ibb.co/j82Hfs7/Screen-Shot-2023-01-06-at-11-30-49-PM.png"
               />
