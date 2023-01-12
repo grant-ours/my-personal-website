@@ -20,16 +20,16 @@ function CVPage() {
         <h2 className="under">EDUCATION</h2>
         <div className="pad">
           <p>
-            <b>SUMMER 2022 - </b>FULL STACK SOFTWARE DEVELOPER CERTIFICATE, COMPLETED,
-            THE FLATIRON SCHOOL, DENVER, COLORADO (ONLINE)
+            <b>FALL 2022 - </b>FULL STACK SOFTWARE DEVELOPER CERTIFICATE,
+            COMPLETED, THE FLATIRON SCHOOL, DENVER, COLORADO (ONLINE)
           </p>
           <p>
             <b>FALL 2018 - </b>DNF, TOOK SOME CODING CLASSES, VIRGINIA TECH,
             BLACKSBURG, VIRGINIA
           </p>
           <p>
-            <b>SPRING 2015 - </b>GRADUATED HIGH SCHOOL, ADVANCED, WEST POTOMAC HIGH
-            SCHOOL, ALEXANDRIA, VIRGINIA
+            <b>SPRING 2015 - </b>GRADUATED WITH AN ADVANCED DIPLOMA, WEST
+            POTOMAC HIGH SCHOOL, ALEXANDRIA, VIRGINIA
           </p>
         </div>
         <h2 className="under">WORK</h2>
