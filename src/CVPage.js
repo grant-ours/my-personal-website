@@ -51,10 +51,10 @@ function CVPage() {
             I JUST RECIEVED MY FULL STACK SOFTWARE DEVELOPMENT CERTIFICATE AND
             AM EXCITED TO BEGIN MY PROFESSIONAL JOURNEY. I'VE LOVED LEARNING
             THESE SKILLS AND CANNOT WAIT TO PUT THEM TO USE SOLVING PROBLEMS,
-            BUILDING COOL PROJECTS, AND MAKING TOOLS WORK BETTER FOR THE TEAMS
-            AND BUSINESSES THAT NEED THEM. I'M ESPECIALLY INTERESTED IN
-            OPPORTUNITES WITHIN AN INDUSTRY RELATED TO MY PASSIONS, LIKE VIDEO
-            GAMES, MUSIC, HORTICULTURE, OR EDUCATION.
+            BUILDING COOL PROJECTS, AND OPTIMIZING TOOLS FOR THE TEAMS AND
+            BUSINESSES THAT NEED THEM. I'M ESPECIALLY INTERESTED IN OPPORTUNITES
+            WITHIN AN INDUSTRY RELATED TO MY PASSIONS, LIKE VIDEO GAMES, MUSIC,
+            HORTICULTURE, AND EDUCATION.
           </p>
           <h4>HERE'S WHAT I WAS UP TO BEFORE I BECAME A SOFTWARE DEVELOPER</h4>
           <br></br>
@@ -69,14 +69,15 @@ function CVPage() {
             >
               DOORDASH
             </a>
+            .
           </p>
           <br></br>
           <p className="tb">
             <b>COMMERCIAL & RESIDENTIAL ELECTRICIAN : AUG 2020 - OCT 2021</b>
             <br></br>
             ASSISTED LICENSED ELECTRICIANS WITH THE USE OF POWER TOOLS,
-            PLANNING, AND FOLLOWING CODE REQUIREMNTS WHILE LEARNING THE TRADE IN
-            ELECTRICAL SCHOOL AT{" "}
+            PLANNING, AND FOLLOWING CODE REQUIREMENTS WHILE LEARNING THE TRADE
+            IN ELECTRICAL SCHOOL AT{" "}
             <a
               href="https://www.kenny-electric.com/"
               target="_blank"
@@ -84,6 +85,7 @@ function CVPage() {
             >
               KENNY ELECTRIC
             </a>
+            .
           </p>
           <br></br>
           <p className="tb">
@@ -100,6 +102,7 @@ function CVPage() {
             >
               SILVER STEM FINE CANNABIS
             </a>
+            .
           </p>
         </div>
       </div>
