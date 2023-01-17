@@ -4,11 +4,14 @@ function CVPage() {
   return (
     <div className="pad2">
       <Header />
+      <br></br>
       <div className="text-align">
         <h2 className="under">SKILLS</h2>
+        <br></br>
         <div className="pad">
           <p>
-            <b>PROGRAMMING LANGUAGES - </b>JAVASCRIPT, RUBY, PYTHON
+            <b>PROGRAMMING LANGUAGES - </b>
+            JAVASCRIPT, RUBY, PYTHON
           </p>
           <p>
             <b>FRAMEWORKS - </b>REACT, RAILS, FLASK, SEMANTIC.UI
@@ -17,27 +20,48 @@ function CVPage() {
             <b>BACKEND - </b>SQL, POSTGRESQL, NODE.JS
           </p>
         </div>
+        <br></br>
         <h2 className="under">EDUCATION</h2>
         <div className="pad">
+          <br></br>
           <p>
-            <b>FALL 2022 - </b>FULL STACK SOFTWARE DEVELOPER CERTIFICATE,
-            COMPLETED, THE FLATIRON SCHOOL, DENVER, COLORADO (ONLINE)
+            <h3>THE FLATIRON SCHOOL</h3>
+            FULL STACK SOFTWARE DEVELOPER CERTIFICATE
+            <p>
+              DENVER, COLORADO <p>2022</p>
+            </p>
           </p>
+          <br></br>
           <p>
-            <b>FALL 2018 - </b>DNF, TOOK SOME CODING CLASSES, VIRGINIA TECH,
-            BLACKSBURG, VIRGINIA
-          </p>
-          <p>
-            <b>SPRING 2015 - </b>GRADUATED WITH AN ADVANCED DIPLOMA, WEST
-            POTOMAC HIGH SCHOOL, ALEXANDRIA, VIRGINIA
+            <h3>VIRGINIA TECH</h3>
+            INTRO TO PROGRAMMING IN C
+            <p>
+              BLACKSBURG, VIRGINIA <p>2018</p>
+            </p>
           </p>
         </div>
+        <br></br>
         <h2 className="under">WORK</h2>
+        <br></br>
         <div className="pad">
+          <p>
+            <h3>I'M READY FOR IT!</h3>
+          </p>
+          <p className="tb">
+            I JUST RECIEVED MY FULL STACK SOFTWARE DEVELOPMENT CERTIFICATE AND
+            AM EXCITED TO BEGIN MY PROFESSIONAL JOURNEY. I'VE LOVED LEARNING
+            THESE SKILLS AND CANNOT WAIT TO PUT THEM TO USE SOLVING PROBLEMS,
+            BUILDING COOL PROJECTS, AND MAKING TOOLS WORK BETTER FOR THE TEAMS
+            AND BUSINESSES THAT NEED THEM. I'M ESPECIALLY INTERESTED IN
+            OPPORTUNITES WITHIN AN INDUSTRY RELATED TO MY PASSIONS, LIKE VIDEO
+            GAMES, MUSIC, HORTICULTURE, OR EDUCATION.
+          </p>
+          <h4>HERE'S WHAT I WAS UP TO BEFORE I BECAME A SOFTWARE DEVELOPER</h4>
+          <br></br>
           <p>
             <b>DELIVERY DRIVER : OCT 2021 - MAR 2022</b>
             <br></br>
-            DELIVERED FOOD WITH{" "}
+            OPTIMIZED DELIVERY ROUTES TO MAINTAIN A HIGHER HOURLY WAGE WITH{" "}
             <a
               href="https://www.doordash.com/"
               target="_blank"
@@ -46,11 +70,13 @@ function CVPage() {
               DOORDASH
             </a>
           </p>
-          <p>
-            <b>COMMERCIAL ELECTRICIAN : APR 2021 - OCT 2021</b>
+          <br></br>
+          <p className="tb">
+            <b>COMMERCIAL & RESIDENTIAL ELECTRICIAN : AUG 2020 - OCT 2021</b>
             <br></br>
-            ASSISTED LICENSED ELECTRICIANS WHILE LEARNING THE TRADE IN LARGE
-            COMMERCIAL BUILDINGS WITH{" "}
+            ASSISTED LICENSED ELECTRICIANS WITH THE USE OF POWER TOOLS,
+            PLANNING, AND FOLLOWING CODE REQUIREMNTS WHILE LEARNING THE TRADE IN
+            ELECTRICAL SCHOOL AT{" "}
             <a
               href="https://www.kenny-electric.com/"
               target="_blank"
@@ -59,80 +85,20 @@ function CVPage() {
               KENNY ELECTRIC
             </a>
           </p>
-          <p>
-            <b>RESIDENTIAL ELECTRICIAN : AUG 2020 - NOVEMBER 2020</b>
+          <br></br>
+          <p className="tb">
+            <b>BUDTENDER/GROWER : NOV 2018 - AUG 2020</b>
             <br></br>
-            ASSISTED LICENSED ELECTRICIANS WHILE LEARNING THE TRADE IN
-            RESIDENTIAL HOMES WITH{" "}
-            <a
-              href="https://www.facebook.com/COElectricalandSmartIntegration/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              CO-ESI
-            </a>
-          </p>
-          <p>
-            <b>BUDTENDER : JULY 2019 - AUG 2020</b>
-            <br></br>
-            ASSIST CUSTOMERS WITH THEIR NEEDS WHILE ALSO HAVING ENOUGH KNOWLEDGE
-            TO MAKE RECOMMENDATIONS AND ANSWER QUESTIONS, CLEAN THE STORE
-            EVERYDAY, AND PROCESSING NEW PRODUCT TO BE PUT ON THE FLOOR FOR SALE
-            AT{" "}
+            RESPONSIBLE FOR CONTROLLING THE CLIMATE IN THE GREENHOUSES. TREATING
+            CUSTOMERS, PLANTS, AND COWORKERS WITH RESPECT. MAINTAINING A CLEAN
+            WORK ENVIRONMENT. HAVING THE KNOWLEDGE TO SOLVE ISSUES AND ANSWER
+            QUESTIONS THAT AROSE AT{" "}
             <a
               href="https://silverstemcannabis.com/"
               target="_blank"
               rel="noreferrer"
             >
               SILVER STEM FINE CANNABIS
-            </a>
-          </p>
-          <p>
-            <b>CANNABIS GROWER : NOV 2018 - JULY 2019</b>
-            <br></br>
-            RESPONSIBLE FOR WATERING/FEEDING ALL OF THE PLANTS, TAKING CUTTINGS
-            TO PROPAGATE NEW PLANTS, UP-POTTING PLANTS AS THEY GROW, MAINTAIN
-            PROPER TEMPERATURE AND HUMIDITY IN THE DIFFERENT GROW HOUSES FOR{" "}
-            <a
-              href="https://naturescolorado.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              NATURE'S HERBS AND WELLNESS
-            </a>
-          </p>
-          <p>
-            <b>HORTICULTURE INTERN : SUMMER 2018</b>
-            <br></br>
-            RESPONSIBLE FOR WATERING ALL OF THE PLANTS AT THE END OF THE DAY,
-            WEEDING, AND DESIGNING GARDENS AT{" "}
-            <a
-              href="https://www.fairfaxcounty.gov/parks/green-spring"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GREEN SPRING GARDENS
-            </a>
-          </p>
-          <p>
-            <b>CREW COACH : JAN - MAY 2017</b>
-            <br></br>
-            IN CHARGE OF THE MENS NOVICE CREW TEAM FOR{" "}
-            <a
-              href="https://www.wpcrew.org/index.html"
-              target="_blank"
-              rel="noreferrer"
-            >
-              WEST POTOMAC HIGH SCHOOL
-            </a>
-          </p>
-          <p>
-            <b>SHIFT LEAD : SEASONAL SUMMER JOB 2013 - 2015</b>
-            <br></br>
-            DEPOSITED CASH REVENUE AT CLOSE, WORKED THE REGISTER, CLEANED, AND
-            NEEDED FIRST AID CERTIFICATIONS FOR PATRONS AT {""}
-            <a href="https://boatingindc.com/" target="_blank" rel="noreferrer">
-              BOATING IN DC
             </a>
           </p>
         </div>

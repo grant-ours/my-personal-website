@@ -175,6 +175,9 @@ p {
   h3 {
     font-family: "Lighters";
   }
+  h4 {
+    font-family: "Lighters";
+  }
   p {
     font-family: "Lighters";
   }
@@ -190,6 +193,11 @@ p {
 
   .pad2 {
     padding-bottom: 50px;
+  }
+
+  .tb {
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .under {
