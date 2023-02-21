@@ -32,9 +32,7 @@ function ProjectPage() {
                 <h3>DISCODE</h3>
               </Card.Header>
               <Card.Meta>Creators: Grant Ours</Card.Meta>
-              <Card.Description>
-                My attempt at a Discord like chatroom app
-              </Card.Description>
+              <Card.Description>Discord chatroom only clone</Card.Description>
             </Card.Content>
             <Card.Content extra>
               <a
