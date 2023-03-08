@@ -14,10 +14,10 @@ function CVPage() {
             JAVASCRIPT, RUBY, PYTHON
           </p>
           <p>
-            <b>FRAMEWORKS - </b>REACT, RAILS, FLASK, SEMANTIC.UI
+            <b>FRAMEWORKS - </b>REACT, RUBY ON RAILS, SEMANTIC.UI, WEBSOCKET API
           </p>
           <p>
-            <b>BACKEND - </b>SQL, POSTGRESQL, NODE.JS
+            <b>DATABASE - </b>SQL, POSTGRESQL, REDIS
           </p>
         </div>
         <br></br>
@@ -78,7 +78,7 @@ function CVPage() {
             <br></br>
             ASSISTED LICENSED ELECTRICIANS WITH THE USE OF POWER TOOLS,
             PLANNING, AND FOLLOWING CODE REQUIREMENTS WHILE LEARNING THE TRADE
-            IN ELECTRICAL SCHOOL AT {" "}
+            IN ELECTRICAL SCHOOL AT{" "}
             <a
               href="https://www.kenny-electric.com/"
               target="_blank"
@@ -95,7 +95,8 @@ function CVPage() {
             RESPONSIBLE FOR CONTROLLING THE CLIMATE IN THE GREENHOUSES. TREATING
             CUSTOMERS, PLANTS, AND COWORKERS WITH RESPECT. MAINTAINING A CLEAN
             WORK ENVIRONMENT. HAVING THE KNOWLEDGE TO SOLVE ISSUES AND ANSWER
-            QUESTIONS THAT AROSE. SHORTLY AFTER BEING HIRED I WAS AWARDED TOP SALESPERSON AT{" "}
+            QUESTIONS THAT AROSE. SHORTLY AFTER BEING HIRED I WAS AWARDED TOP
+            SALESPERSON AT{" "}
             <a
               href="https://silverstemcannabis.com/"
               target="_blank"
